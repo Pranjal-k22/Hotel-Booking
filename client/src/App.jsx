@@ -11,6 +11,8 @@ import Layout from './pages/hotelOwner/Layout';
 import Dashboard from './pages/hotelOwner/Dashboard';
 import AddRoom from './pages/hotelOwner/AddRoom';
 import ListRoom from './pages/hotelOwner/ListRoom';
+import About from './pages/About';
+import Experience from './pages/Experience';
 
 const App = () => {
   
@@ -24,6 +26,9 @@ const App = () => {
       <div className='min-h-[70vh]'>
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/experience' element={<Experience/>} />
+          <Route path='/about' element={<About/>} />
+
           
           <Route path='/rooms' element={<AllRooms/>} />
           <Route path='/rooms/:id' element={<RoomDetails/>} />
