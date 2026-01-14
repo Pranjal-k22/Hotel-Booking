@@ -51,44 +51,48 @@ npm run preview
 
 The important files and folders (workspace root contains `client/`):
 
+```
 client/
-- eslint.config.js
-- index.html
-- package.json
-- README.md
-- vite.config.js
-- public/
-- src/
-  - App.jsx
-  - index.css
-  - main.jsx
-  - assets/
-    - assets.js
-  - components/
-    - ExclusiveOffers.jsx
-    - FeaturedDestination.jsx
-    - Footer.jsx
-    - Hero.jsx
-    - HotelCard.jsx
-    - HotelReg.jsx
-    - Navbar.jsx
-    - NewsLetter.jsx
-    - StarRating.jsx
-    - Testimonial.jsx
-    - Title.jsx
-    - hotelOwner/
-      - Navbar.jsx
-      - Sidebar.jsx
-  - pages/
-    - AllRooms.jsx
-    - Home.jsx
-    - MyBookings.jsx
-    - RoomDetails.jsx
-    - hotelOwner/
-      - AddRoom.jsx
-      - Dashboard.jsx
-      - Layout.jsx
-      - ListRoom.jsx
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+├── vite.config.js
+├── public/
+└── src/
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── assets/
+    │   └── assets.js
+    ├── components/
+    │   ├── ExclusiveOffers.jsx
+    │   ├── FeaturedDestination.jsx
+    │   ├── Footer.jsx
+    │   ├── Hero.jsx
+    │   ├── HotelCard.jsx
+    │   ├── HotelReg.jsx
+    │   ├── Navbar.jsx
+    │   ├── NewsLetter.jsx
+    │   ├── StarRating.jsx
+    │   ├── Testimonial.jsx
+    │   ├── Title.jsx
+    │   └── hotelOwner/
+    │       ├── Navbar.jsx
+    │       └── Sidebar.jsx
+    ├── pages/
+    │   ├── About.jsx
+    │   ├── Experience.jsx
+    │   ├── AllRooms.jsx
+    │   ├── Home.jsx
+    │   ├── MyBookings.jsx
+    │   ├── RoomDetails.jsx
+    │   └── hotelOwner/
+    │       ├── AddRoom.jsx
+    │       ├── Dashboard.jsx
+    │       ├── Layout.jsx
+    │       └── ListRoom.jsx
+```
 
 **Notes**
 
@@ -101,6 +105,16 @@ client/
 - `npm run dev` — start Vite dev server
 - `npm run build` — build production bundle
 - `npm run preview` — preview production build locally
+
+## Recent Changes
+
+- Updated the About page to include animations using `framer-motion`.
+- Installed the latest versions of `react`, `react-dom`, and `framer-motion`.
+
+## Dependencies
+
+- Added `framer-motion` for animations in the UI.
+- Ensure to run `npm install` to get the latest dependencies.
 
 **Contributing**
 
