@@ -67,7 +67,7 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center gap-4">
                     <img src={assets.searchIcon} alt="search" className={`${isScrolled ? "invert" : ""} h-7 transition-all duration-500`} />
 
-                    {user ? (<UserButton> 
+                    {user ? (<UserButton afterSignOutUrl="/"> 
                         <UserButton.MenuItems>
                             <UserButton.Action label="My Bookings" labelIcon={<BookIcon />} onClick={()=> navigate('/my-bookings')}/>
                         </UserButton.MenuItems>
