@@ -2,6 +2,8 @@
 
 A simple hotel booking frontend built with React and Vite. This repository contains a client app that includes pages for listing rooms, viewing details, user bookings, and a hotel owner dashboard.
 
+**Live Demo:** https://quickstay-hotels-p22.vercel.app/
+
 ---
 
 **Prerequisites**
@@ -81,17 +83,17 @@ client/
     │       ├── Navbar.jsx
     │       └── Sidebar.jsx
     ├── pages/
-    │   ├── About.jsx
-    │   ├── Experience.jsx
-    │   ├── AllRooms.jsx
-    │   ├── Home.jsx
-    │   ├── MyBookings.jsx
-    │   ├── RoomDetails.jsx
-    │   └── hotelOwner/
-    │       ├── AddRoom.jsx
-    │       ├── Dashboard.jsx
-    │       ├── Layout.jsx
-    │       └── ListRoom.jsx
+        ├── About.jsx
+        ├── Experience.jsx
+        ├── AllRooms.jsx
+        ├── Home.jsx
+        ├── MyBookings.jsx
+        ├── RoomDetails.jsx
+        └── hotelOwner/
+            ├── AddRoom.jsx
+            ├── Dashboard.jsx
+            ├── Layout.jsx
+            └── ListRoom.jsx
 ```
 
 **Notes**
