@@ -22,7 +22,7 @@ const About = () => {
 
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-6">
-              About Hotel Booking
+              About Hotel
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
               We make finding and booking your perfect stay simple and reliable.
